@@ -1,9 +1,12 @@
 
-![Logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
-![Logo](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
+<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="git" width="500"/>
+<img src="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png" alt="github" width="500"/>
+
 ---
 
+```
 git push
+```
 
 simple, elegant, powerful
 
@@ -119,7 +122,7 @@ delivery
 - git fetch
 - git pull
 - git push
-
+- .gitignore
 ---
 
 fixing stuff
