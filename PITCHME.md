@@ -1,6 +1,6 @@
 
-<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="git" width="500"/>
-<img src="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png" alt="github" width="500"/>
+<img src="./pics/Git-Logo-2Color.png" alt="git" width="500"/>
+<img src="./pics/github-octocat.png" alt="github" width="500"/>
 
 ---
 
@@ -12,23 +12,28 @@ simple, elegant, powerful
 
 ---
 
-<source control icons>
+<img src="./pics/IBM-ClearCase.png">
+<img src="./pics/Subversion_Logo.svg.png">
+<img src="./pics/VS-TFS.png">
+<img src="./pics/cvs.jpg">
+<img src="./pics/mercurial-logo.png">
+<img src="./pics/vss6.jpg">
 
 ---
 
 so what is git? and how do we use it?
-
+ 
 ---
 
-what is git?
-
+<img src="./pics/Git-Logo-2Color.png">
+ 
 +++
 
 distributed version control system
 
 +++
 
-<diagram>
+-diagram
 
 +++
 
@@ -36,19 +41,37 @@ optimized for performance
 
 +++
 
+-diagram
+
++++
+
 security - all objects in git repository cryptograpic 
+
++++
+
+-diagram
 
 +++
 
 open source, standard
 
+
++++
+
+-diagram
+
 ---
 
-what is github?
+
+<img src="./pics/github-octocat.png" alt="github"/>
 
 +++
 
 git hosting service with web based gui
+
++++
+
+-diagram
 
 +++
 
@@ -60,15 +83,25 @@ collaboration
 
 ---
 
-gitlab (github?) comes with ci/cd support
-- pushing code can trigger the automated pipeline
+gitlab - an alternate to github 
 
 ---
 
 How to use git
-- **CLI**
-- standalone app
-- IDE integration
+
++++
+
+-CLI diagram
+
+
++++
+
+-standalone app diagram
+
+
++++
+
+-IDE integration diagram
 
 ---
 
@@ -87,7 +120,7 @@ version control
 
 +++
 
-![Logo](https://git-scm.com/images/about/index1@2x.png)
+<img src="./pics/gitaddcommit.png">
 
 ---
 
