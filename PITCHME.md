@@ -37,10 +37,13 @@ simple, elegant, powerful
  
 +++
 
-distributed version control system
-optimized for performance |
-security - cryptography to store all objects in git repository |
-open source, standard |
+- distributed version control system
+
+- optimized for performance |
+
+- security - cryptography to store all objects in git repository |
+
+- open source, standard |
 
 
 +++
@@ -54,13 +57,13 @@ open source, standard |
 
 +++
 
-git hosting service with web based gui
+- git hosting service with web based gui
 
-access control |
+- access control |
 
-collaboration platform |
+- collaboration platform |
 
-3rd party integration |
+- 3rd party integration |
 
 ---
 
