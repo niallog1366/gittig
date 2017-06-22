@@ -1,4 +1,21 @@
 
+# git and github
+
+Niall O'Gorman
+
+
+---
+Version control solutions
+
+<img src="./pics/IBM-ClearCase.png" width="250">
+<img src="./pics/Subversion_Logo.svg.png" width="300">
+<img src="./pics/VS-TFS.png" width="300">
+<img src="./pics/cvs.jpg" width="300">
+<img src="./pics/mercurial-logo.png" width="300">
+<img src="./pics/vss6.jpg" width="250">
+
+---
+
 <img src="./pics/Git-Logo-2Color.png" alt="git" width="500"/>
 <img src="./pics/github-octocat.png" alt="github" width="500"/>
 
@@ -12,16 +29,7 @@ simple, elegant, powerful
 
 ---
 
-<img src="./pics/IBM-ClearCase.png" width="250">
-<img src="./pics/Subversion_Logo.svg.png" width="300">
-<img src="./pics/VS-TFS.png" width="300">
-<img src="./pics/cvs.jpg" width="300">
-<img src="./pics/mercurial-logo.png" width="300">
-<img src="./pics/vss6.jpg" width="250">
-
----
-
-so what is git? and how do we use it?
+## so what is git? and how do we use it?
  
 ---
 
@@ -30,30 +38,9 @@ so what is git? and how do we use it?
 +++
 
 distributed version control system
-
-+++
-
--diagram
-
-+++
-
-optimized for performance
-
-+++
-
--diagram
-
-+++
-
-security - all objects in git repository cryptograpic 
-
-+++
-
--diagram
-
-+++
-
-open source, standard
+optimized for performance |
+security - cryptography to store all objects in git repository |
+open source, standard |
 
 
 +++
@@ -69,25 +56,11 @@ open source, standard
 
 git hosting service with web based gui
 
-+++
+access control |
 
--diagram
+collaboration platform |
 
-+++
-
-access control
-
-+++
-
-collaboration
-
-+++
-
-3rd party integration
-
----
-
-gitlab - an alternate to github 
+3rd party integration |
 
 ---
 
@@ -95,29 +68,33 @@ How to use git
 
 +++
 
-<img src="./pics/gitCLI.png">
-
+command line
 
 +++
 
--IDE integration diagram
+IDE integration
 
 ---
 
-workflows
+## workflows
 - getting started
 - version control
 - branches
 - delivery
+- undoing
 
 ---
 
-getting started
+## workflows
+- __***getting started***__
+- version control
+- branches
+- delivery
+- undoing
+
+---
 
 - create new repo on github
-```
-git clone
-```
 
 +++
 
@@ -125,14 +102,17 @@ git clone
 
 +++
 
-**live coding!**
-
+```
+git clone
+```
 ---
 
-version control
-
-- git add
-- git commit
+## workflows
+- getting started
+- __***version control***__
+- branches
+- delivery
+- undoing
 
 +++
 
@@ -140,54 +120,68 @@ version control
 
 +++
 
-**live coding!**
+**commiting changes are always to local repository**
 
 ---
-
-branches
-- git checkout 
-- git merge
-- git rebase
-
-+++
-
-master - *production ready, dont develop in master*
+## workflows
+- getting started
+- version control
+- __***branches***__
+- delivery
+- undoing
 
 +++
 
-diagram - master
+<img src="./pics/branches.svg">
+
 
 +++
 
-feature branch - multiple commits
-fix branch - few commits
+master branch - *production ready, dont develop in master*
+
+big features - used to implement an applicaiton features, multiple commits
+
+little feature - used to fix bug, few commits
 
 +++
 
-diagram - master with branch
+fast forward merge
+
+<img src="./pics/beforemerge.svg">
 
 +++
 
-features and fixes get merged into master
+3-way merge
+<img src="./pics/beforemerge2.svg">
 
-+++
-
-diagram - merge branch (merge head of each branch)
-
-+++
-
-diagram - multiple branches, rebase (rollback and apply changes)
 
 ---
+## workflows
+- getting started
+- version control
+- branches
+- __***delivery***__
+- undoing
+
++++
 
 delivery
 - git fetch
 - git pull
 - git push
 - .gitignore
+
 ---
+## workflows
+- getting started
+- version control
+- branches
+- delivery
+- __***undoing***__
+
++++
 
 fixing stuff
-- rollback
-- retrieve branch from remove
-- delete entire local
+- git checkout - checkout a branch, a file or a commit
+- git revert - add a new commit to undo a commit
+- git reset - only for local changes! permenant undo, no way to retrieve original 
