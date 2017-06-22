@@ -12,12 +12,12 @@ simple, elegant, powerful
 
 ---
 
-<img src="./pics/IBM-ClearCase.png">
-<img src="./pics/Subversion_Logo.svg.png">
-<img src="./pics/VS-TFS.png">
-<img src="./pics/cvs.jpg">
-<img src="./pics/mercurial-logo.png">
-<img src="./pics/vss6.jpg">
+<img src="./pics/IBM-ClearCase.png" width="250">
+<img src="./pics/Subversion_Logo.svg.png" width="300">
+<img src="./pics/VS-TFS.png" width="300">
+<img src="./pics/cvs.jpg" width="300">
+<img src="./pics/mercurial-logo.png" width="300">
+<img src="./pics/vss6.jpg" width="250">
 
 ---
 
@@ -81,6 +81,10 @@ access control
 
 collaboration
 
++++
+
+3rd party integration
+
 ---
 
 gitlab - an alternate to github 
@@ -91,12 +95,7 @@ How to use git
 
 +++
 
--CLI diagram
-
-
-+++
-
--standalone app diagram
+<img src="./pics/gitCLI.png">
 
 
 +++
@@ -106,21 +105,42 @@ How to use git
 ---
 
 workflows
+- getting started
 - version control
 - branches
 - delivery
 
 ---
 
+getting started
+
+- create new repo on github
+```
+git clone
+```
+
++++
+
+<img src="./pics/gitNewRepo.png">
+
++++
+
+**live coding!**
+
+---
+
 version control
-- git init
+
 - git add
 - git commit
-- git tag
 
 +++
 
 <img src="./pics/gitaddcommit.png">
+
++++
+
+**live coding!**
 
 ---
 
@@ -131,15 +151,24 @@ branches
 
 +++
 
-diagram - master
-
-+++
-
 master - *production ready, dont develop in master*
 
 +++
 
+diagram - master
+
++++
+
+feature branch - multiple commits
+fix branch - few commits
+
++++
+
 diagram - master with branch
+
++++
+
+features and fixes get merged into master
 
 +++
 
