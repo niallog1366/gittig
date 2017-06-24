@@ -80,20 +80,20 @@ IDE integration
 ---
 
 ## workflows
-- getting started
-- version control
-- branches
-- delivery
-- undoing
+* getting started
+* version control
+* branches
+* delivery
+* undoing
 
 ---
 
 ## workflows
-- __***getting started***__
-- version control
-- branches
-- delivery
-- undoing
+* `getting started`
+* version control
+* branches
+* delivery
+* undoing
 
 ---
 
@@ -108,14 +108,15 @@ IDE integration
 ```
 git clone
 ```
+copy the repository to local working directory
 ---
 
 ## workflows
-- getting started
-- __***version control***__
-- branches
-- delivery
-- undoing
+* getting started
+* `version control`
+* branches
+* delivery
+* undoing
 
 +++
 
@@ -123,15 +124,36 @@ git clone
 
 +++
 
+```
+git add
+```
+stage changes for next commit
+**useful when making lots of change and reviewings**
+
++++
+
+```
+git commit
+```
+commit staged snapshot (with message) to project history
+
 **commiting changes are always to local repository**
+
++++
+
+### tips
+
+* use `git stash` and `git stash pop` to temporarily safe changes
+
+* create `.gitignore` file to specify files which are not part of project
 
 ---
 ## workflows
-- getting started
-- version control
-- __***branches***__
-- delivery
-- undoing
+* getting started
+* version control
+* `branches`
+* delivery
+* undoing
 
 +++
 
@@ -140,39 +162,96 @@ git clone
 
 +++
 
-master branch - *production ready, dont develop in master*
+Master branch - *production ready, dont develop in master*
 
-big features - used to implement an applicaiton features, multiple commits
+Big feature branch - used to implement an application features, multiple commits
 
 little feature - used to fix bug, few commits
 
 +++
 
-fast forward merge
+```
+git checkout <branch>
+git checkout -b <new branch>
 
-<img src="./pics/beforemerge.svg">
+```
+navigate between branches
 
 +++
 
-3-way merge
-<img src="./pics/beforemerge2.svg">
+```
+git merge <branch>
 
+```
+pull changes in branches together
+
++++
+
+merge type #1  ___**fast forward merge**___
+
+- instead of "merging" git can move the head of the branch to target
+
++++
+
+<img src="./pics/ffwdmerge1.svg">
+
++++
+
+<img src="./pics/ffwdmerge2.svg">
+
++++
+
+merge type #2  ___**3-way merge**___
+
+- fast forward not possible if branches have diverged
+- git uses common ansestor and will auto merge or flag any conflicts 
+
++++
+
+<img src="./pics/3waymerge1.svg">
+
++++
+
+<img src="./pics/3waymerge2.svg">
+
++++
 
 ---
 ## workflows
 - getting started
 - version control
 - branches
-- __***delivery***__
+- `delivery`
 - undoing
 
 +++
 
-delivery
-- git fetch
-- git pull
-- git push
-- .gitignore
+```
+git pull 
+
+```
+fetch remote copy and merge into local
+
++++
+
+```
+git push
+
+```
+transfer local commits to remote
+
++++
+
++++
+
+### tips
+
+when on master branch
+
+* `git pull` ==  `git pull origin`
+
+* `git push` == `git push origin master`
+
 
 ---
 ## workflows
@@ -180,7 +259,7 @@ delivery
 - version control
 - branches
 - delivery
-- __***undoing***__
+- `undoing`
 
 +++
 
