@@ -5,16 +5,17 @@ Niall O'Gorman
 
 
 ---
-Version control solutions
+Yesterday
 
 <img src="./pics/IBM-ClearCase.png" width="250">
-<img src="./pics/Subversion_Logo.svg.png" width="300">
+<img src="./pics/Subversion_Logo.svg.png" width="300"> 
 <img src="./pics/VS-TFS.png" width="300">
 <img src="./pics/cvs.jpg" width="300">
 <img src="./pics/mercurial-logo.png" width="300">
 <img src="./pics/vss6.jpg" width="250">
 
 ---
+Today
 
 <img src="./pics/Git-Logo-2Color.png" alt="git" width="500"/>
 <img src="./pics/github-octocat.png" alt="github" width="500"/>
@@ -27,6 +28,10 @@ git push
 
 simple, elegant, powerful
 
++++
+
+< slide here - pipeline>
+
 ---
 
 ## so what is git? and how do we use it?
@@ -37,13 +42,15 @@ simple, elegant, powerful
  
 +++
 
-- distributed version control system
+- non linear workflows - branches are cheap, rapid branching and merging
+ 
+- distributed version control system - each developer has full history locally <!-- .element: class="fragment" -->
 
-- optimized for performance |
+- optimized for performance - efficient for large projects <!-- .element: class="fragment" -->
 
-- security - cryptography to store all objects in git repository |
+- data integrity - cryptographic authentication of objects in git repository (commit hash) <!-- .element: class="fragment" -->
 
-- open source, standard |
+- toolkit design - open source, standard <!-- .element: class="fragment" -->
 
 
 +++
@@ -59,11 +66,27 @@ simple, elegant, powerful
 
 - git hosting service with web based gui
 
-- access control |
+- access control - code security <!-- .element: class="fragment" -->
 
-- collaboration platform |
+- bug tracking, issues management <!-- .element: class="fragment" -->
 
-- 3rd party integration |
+- collaboration platform - social media-like features (feeds, wikis), `fork` request <!-- .element: class="fragment" -->
+
+- 3rd party integration - Jenkins, Pivotal tracker <!-- .element: class="fragment" -->
+
++++
+
+22M developers
+61M repositories 
+117K businesses
+
++++
+
+bootstrap
+node.js
+jQuery
+cloud foundry
+etc etc etc ...
 
 ---
 
@@ -263,7 +286,52 @@ when on master branch
 
 +++
 
-fixing stuff
-- git checkout - checkout a branch, a file or a commit
-- git revert - add a new commit to undo a commit
-- git reset - only for local changes! permenant undo, no way to retrieve original 
+when you need to fix stuff
+
++++
+
+```
+git checkout
+```
+
+checkout a branch, a file or a commit
+
++++
+
+
+```
+git revert
+```
+
+add a new commit to undo a commit
+
++++
+
+```
+git reset
+```
+
+use only for local changes! permenant undo, no way to retrieve original
+
+```
+rm -rf
+git clone
+```
+
+the **nuclear** option, blow everything away and restore local repository from remote
+
+---
+
+questions?
+
+---
+
+slack #enterprise-tool
+
+references:
+
+- https://github.allstate.com/
+- https://www.atlassian.com/git/tutorials/
+- http://www.drdobbs.com/tools/three-way-merging-a-look-under-the-hood/240164902
+
+
