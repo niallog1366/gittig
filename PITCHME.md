@@ -51,19 +51,15 @@ simple, elegant, powerful
 
 ### the git ecosystem 
 
-- 22M developers <!-- .element: class="fragment" -->
+- 117K businesses <!-- .element: class="fragment" -->
 
 - 61M repositories <!-- .element: class="fragment" -->
 
-- 117K businesses <!-- .element: class="fragment" -->
+- 22M developers <!-- .element: class="fragment" -->
 
 ---
 
 ### go on then, tell me about git...
- 
----
-
-+++
 
 <img src="./pics/Git-Logo-2Color.png">
  
@@ -94,7 +90,7 @@ simple, elegant, powerful
 
 - bug tracking, issues management <!-- .element: class="fragment" -->
 
-- collaboration platform - social media-like features (feeds, wikis), __fork__ request <!-- .element: class="fragment" -->
+- collaboration platform - social media-like features (feeds, wikis), fork request <!-- .element: class="fragment" -->
 
 - 3rd party integration - Jenkins, Pivotal tracker <!-- .element: class="fragment" -->
 
@@ -177,15 +173,16 @@ stage changes for next commit
 ```
 git commit
 ```
-commit staged snapshot (with message) to project history
 
-**commiting changes are always to local repository**
+- commit staged snapshot (with message) to project history
+
+- **commiting changes are always to local repository**
 
 +++
 
 ### tips
 
-* use `git stash` and `git stash pop` to temporarily safe changes
+* use `git stash` and `git stash pop` to temporarily save changes
 
 * create `.gitignore` file to specify files which are not part of project
 
@@ -201,14 +198,13 @@ commit staged snapshot (with message) to project history
 
 <img src="./pics/branches.png">
 
-
 +++
 
-Master branch - *production ready, dont develop in master*
+master branch - *production ready, dont develop in master*
 
-Big feature branch - used to implement an application features, multiple commits
+big feature - used to implement an application features, multiple commits
 
-little feature - used to fix bug, few commits
+little feature - minor changes, used to fix bugs, few commits
 
 +++
 
@@ -229,9 +225,7 @@ pull changes in branches together
 
 +++
 
-merge type #1  ___**fast forward merge**___
-
-- instead of "merging" git can move the head of the branch to target
+merge type #1  - ___**fast forward merge**___
 
 +++
 
@@ -240,23 +234,21 @@ merge type #1  ___**fast forward merge**___
 +++
 
 <img src="./pics/ffwdmerge2.png">
+- instead of "merging" git can move the head of the branch to target
 
 +++
 
-merge type #2  ___**3-way merge**___
-
-- fast forward not possible if branches have diverged
-- git uses common ansestor and will auto merge or flag any conflicts 
+merge type #2 - ___**3-way merge**___
 
 +++
 
 <img src="./pics/3waymerge1.png">
+- branches have diverged so fast forward not possible
 
 +++
 
 <img src="./pics/3waymerge2.png">
-
-+++
+- git algorithm uses common ancestor and will auto merge or flag any conflicts
 
 ---
 ## workflows
@@ -281,19 +273,6 @@ git push
 
 ```
 transfer local commits to remote
-
-+++
-
-+++
-
-### tips
-
-when on master branch
-
-* `git pull` ==  `git pull origin`
-
-* `git push` == `git push origin master`
-
 
 ---
 ## workflows
@@ -330,7 +309,9 @@ add a new commit to undo a commit
 git reset
 ```
 
-use only for local changes! permenant undo, no way to retrieve original
+use only for local changes! permanent undo, no way to retrieve original
+
++++
 
 ```
 rm -rf
@@ -345,9 +326,6 @@ questions?
 
 ---
 
-slack #enterprise-tool
-
-references:
 
 - https://github.allstate.com/
 - https://www.atlassian.com/git/tutorials/
