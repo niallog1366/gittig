@@ -5,6 +5,7 @@ Niall O'Gorman
 
 
 ---
+
 ### who has used these source control systems?
 
 <img src="./pics/IBM-ClearCase.png" width="250">
@@ -57,6 +58,12 @@ simple, elegant, powerful
 
 - 22M developers <!-- .element: class="fragment" -->
 
++++
+
+### supporting all these technologies and many more
+
+<img src="./pics/supporting-logos.png">
+
 ---
 
 ### go on then, tell me about git...
@@ -65,15 +72,15 @@ simple, elegant, powerful
  
 +++
 
-- distributed version control system - each developer has full history locally 
+- distributed version control system - __each developer has full history locally__
 
-- non linear workflows - branches are cheap, rapid branching and merging <!-- .element: class="fragment" -->
+- non linear workflows - __branches are cheap, rapid branching and merging__ <!-- .element: class="fragment" -->
  
-- optimized for performance - efficient for large projects <!-- .element: class="fragment" -->
+- optimized for performance - __efficient for large projects__ <!-- .element: class="fragment" -->
 
-- data integrity - cryptographic authentication of objects in git repository (commit hash) <!-- .element: class="fragment" -->
+- data integrity - __cryptographic authentication of objects in git repository (commit hash)__ <!-- .element: class="fragment" -->
 
-- toolkit design - open source, standard <!-- .element: class="fragment" -->
+- toolkit design - __designed to support frontends, open source, chain components__ <!-- .element: class="fragment" -->
 
 ---
 
@@ -86,21 +93,17 @@ simple, elegant, powerful
 
 - git hosting service with web based gui
 
-- access control - code security <!-- .element: class="fragment" -->
+- access control - __code security__ <!-- .element: class="fragment" -->
 
 - bug tracking, issues management <!-- .element: class="fragment" -->
 
-- collaboration platform - social media-like features (feeds, wikis), fork request <!-- .element: class="fragment" -->
+- pull requests <!-- .element: class="fragment" -->
 
-- 3rd party integration - Jenkins, Pivotal tracker <!-- .element: class="fragment" -->
+- commit history <!-- .element: class="fragment" -->
 
-+++
+- collaboration platform - __social media-like features (feeds, wikis), fork request__ <!-- .element: class="fragment" -->
 
-bootstrap
-node.js
-jQuery
-cloud foundry
-etc etc etc ...
+- 3rd party integration - __Jenkins, Pivotal tracker etc__ <!-- .element: class="fragment" -->
 
 ---
 
