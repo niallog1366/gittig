@@ -5,17 +5,32 @@ Niall O'Gorman
 
 
 ---
-Yesterday
+### who has used these source control systems?
 
 <img src="./pics/IBM-ClearCase.png" width="250">
-<img src="./pics/Subversion_Logo.svg.png" width="300"> 
+<img src="./pics/Subversion_Logo.png" width="300"> 
 <img src="./pics/VS-TFS.png" width="300">
 <img src="./pics/cvs.jpg" width="300">
 <img src="./pics/mercurial-logo.png" width="300">
 <img src="./pics/vss6.jpg" width="250">
 
 ---
-Today
+
+### or perhaps
+
+<img src="./pics/sclm.jpg"/>
+
+---
+### this guy had other ideas
+
+<img src="./pics/linus-torvalds.png"/>
+
+---
+
+<img src="./pics/linus.jpg">
+
+---
+
 
 <img src="./pics/Git-Logo-2Color.png" alt="git" width="500"/>
 <img src="./pics/github-octocat.png" alt="github" width="500"/>
@@ -30,34 +45,43 @@ simple, elegant, powerful
 
 +++
 
-< slide here - pipeline>
+<img src="./pics/pipeline.png" />
 
 ---
 
-## so what is git? and how do we use it?
+### the git ecosystem 
+
+- 22M developers <!-- .element: class="fragment" -->
+
+- 61M repositories <!-- .element: class="fragment" -->
+
+- 117K businesses <!-- .element: class="fragment" -->
+
+---
+
+### go on then, tell me about git...
  
 ---
+
++++
 
 <img src="./pics/Git-Logo-2Color.png">
  
 +++
 
-- non linear workflows - branches are cheap, rapid branching and merging
- 
-- distributed version control system - each developer has full history locally <!-- .element: class="fragment" -->
+- distributed version control system - each developer has full history locally 
 
+- non linear workflows - branches are cheap, rapid branching and merging <!-- .element: class="fragment" -->
+ 
 - optimized for performance - efficient for large projects <!-- .element: class="fragment" -->
 
 - data integrity - cryptographic authentication of objects in git repository (commit hash) <!-- .element: class="fragment" -->
 
 - toolkit design - open source, standard <!-- .element: class="fragment" -->
 
-
-+++
-
--diagram
-
 ---
+
+### and github ? 
 
 
 <img src="./pics/github-octocat.png" alt="github"/>
@@ -70,15 +94,9 @@ simple, elegant, powerful
 
 - bug tracking, issues management <!-- .element: class="fragment" -->
 
-- collaboration platform - social media-like features (feeds, wikis), `fork` request <!-- .element: class="fragment" -->
+- collaboration platform - social media-like features (feeds, wikis), __fork__ request <!-- .element: class="fragment" -->
 
 - 3rd party integration - Jenkins, Pivotal tracker <!-- .element: class="fragment" -->
-
-+++
-
-22M developers
-61M repositories 
-117K businesses
 
 +++
 
@@ -90,7 +108,7 @@ etc etc etc ...
 
 ---
 
-How to use git
+### Ways to use git
 
 +++
 
@@ -118,7 +136,7 @@ IDE integration
 * delivery
 * undoing
 
----
++++
 
 - create new repo on github
 
@@ -151,6 +169,7 @@ copy the repository to local working directory
 git add
 ```
 stage changes for next commit
+
 **useful when making lots of change and reviewings**
 
 +++
@@ -180,7 +199,7 @@ commit staged snapshot (with message) to project history
 
 +++
 
-<img src="./pics/branches.svg">
+<img src="./pics/branches.png">
 
 
 +++
@@ -216,11 +235,11 @@ merge type #1  ___**fast forward merge**___
 
 +++
 
-<img src="./pics/ffwdmerge1.svg">
+<img src="./pics/ffwdmerge1.png">
 
 +++
 
-<img src="./pics/ffwdmerge2.svg">
+<img src="./pics/ffwdmerge2.png">
 
 +++
 
@@ -231,11 +250,11 @@ merge type #2  ___**3-way merge**___
 
 +++
 
-<img src="./pics/3waymerge1.svg">
+<img src="./pics/3waymerge1.png">
 
 +++
 
-<img src="./pics/3waymerge2.svg">
+<img src="./pics/3waymerge2.png">
 
 +++
 
