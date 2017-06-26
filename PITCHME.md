@@ -29,20 +29,18 @@ Niall O'Gorman
 ---
 
 
-### this guy had a source control problem
+### In 2005 this guy had a source control problem
 
 <img src="./pics/linus-torvalds.png"/>
 
 ---
 
-### so in 2005 started building his own
+### so he started building his own
 
 
 <img src="./pics/Git-Logo-2Color.png" alt="git" width="500"/>
 
-
-### which by 2015 had **10M repositories**
-
+---
 
 ### meanwhile in San Fransisco 2007, some open source develoers had their idea...
 
@@ -50,13 +48,15 @@ Niall O'Gorman
 
 ---
 
-### and grew into global ecosystem 
+### all this grew into todays global open source ecosystem 
 
 - 117K businesses 
 
 - 61M repositories 
 
 - 22M developers 
+
+https://octoverse.github.com/
 
 ---
 
@@ -65,6 +65,7 @@ Niall O'Gorman
 <img src="./pics/supporting-logos.png" width="500">
 
 ---
+
 
 ```
 git push
@@ -164,6 +165,22 @@ IDE integration
 git clone
 ```
 copy the repository to local working directory
+
+
++++
+
+```
+git status
+```
+speaks for itself -  **most frequently used command**
+
++++
+
+```
+git log
+```
+view change history 
+
 ---
 
 ## workflows
@@ -344,8 +361,12 @@ questions?
 
 ---
 
+<img src="./pics/apollo11.png" >
+
+---
 
 - https://github.allstate.com/
+- https://octoverse.github.com/
 - https://www.atlassian.com/git/tutorials/
 - http://www.drdobbs.com/tools/three-way-merging-a-look-under-the-hood/240164902
 
