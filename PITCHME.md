@@ -8,12 +8,12 @@ Niall O'Gorman
 
 ### who has used these source control systems?
 
-<img src="./pics/IBM-ClearCase.png" width="250">
-<img src="./pics/Subversion_Logo.png" width="300"> 
-<img src="./pics/VS-TFS.png" width="300">
-<img src="./pics/cvs.jpg" width="300">
-<img src="./pics/mercurial-logo.png" width="300">
-<img src="./pics/vss6.jpg" width="250">
+<img src="./pics/IBM-ClearCase.png" width="200">
+<img src="./pics/Subversion_Logo.png" width="200"> 
+<img src="./pics/VS-TFS.png" width="200">
+<img src="./pics/cvs.jpg" width="200">
+<img src="./pics/mercurial-logo.png" width="200">
+<img src="./pics/vss6.jpg" width="200">
 
 ---
 
@@ -22,7 +22,7 @@ Niall O'Gorman
 <img src="./pics/sclm.jpg"/>
 
 ---
-### this guy had other ideas
+### this guy needed source control an idea
 
 <img src="./pics/linus-torvalds.png"/>
 
@@ -62,7 +62,7 @@ simple, elegant, powerful
 
 ### supporting all these technologies and many more
 
-<img src="./pics/supporting-logos.png">
+<img src="./pics/supporting-logos.png" width="500">
 
 ---
 
@@ -72,15 +72,15 @@ simple, elegant, powerful
  
 +++
 
-- distributed version control system - __each developer has full history locally__
+- distributed version control system - each developer has full history locally
 
-- non linear workflows - __branches are cheap, rapid branching and merging__ <!-- .element: class="fragment" -->
+- non linear workflows - branches are cheap, rapid branching and merging <!-- .element: class="fragment" -->
  
-- optimized for performance - __efficient for large projects__ <!-- .element: class="fragment" -->
+- optimized for performance - efficient for large projects <!-- .element: class="fragment" -->
 
-- data integrity - __cryptographic authentication of objects in git repository (commit hash)__ <!-- .element: class="fragment" -->
+- data integrity - cryptographic authentication of objects in git repository (commit hash) <!-- .element: class="fragment" -->
 
-- toolkit design - __designed to support frontends, open source, chain components__ <!-- .element: class="fragment" -->
+- toolkit design - designed to support frontends, open source, chain components <!-- .element: class="fragment" -->
 
 ---
 
@@ -93,7 +93,7 @@ simple, elegant, powerful
 
 - git hosting service with web based gui
 
-- access control - __code security__ <!-- .element: class="fragment" -->
+- access control - code security <!-- .element: class="fragment" -->
 
 - bug tracking, issues management <!-- .element: class="fragment" -->
 
@@ -101,9 +101,9 @@ simple, elegant, powerful
 
 - commit history <!-- .element: class="fragment" -->
 
-- collaboration platform - __social media-like features (feeds, wikis), fork request__ <!-- .element: class="fragment" -->
+- collaboration platform - social media-like features (feeds, wikis), fork request <!-- .element: class="fragment" -->
 
-- 3rd party integration - __Jenkins, Pivotal tracker etc__ <!-- .element: class="fragment" -->
+- 3rd party integration - Jenkins, Pivotal tracker etc <!-- .element: class="fragment" -->
 
 ---
 
@@ -129,7 +129,7 @@ IDE integration
 ---
 
 ## workflows
-* `getting started`
+* `getting started` <!-- .element: style="background-color:powderblue;" -->
 * version control
 * branches
 * delivery
@@ -167,9 +167,9 @@ copy the repository to local working directory
 ```
 git add
 ```
-stage changes for next commit
+- stage changes for next commit 
 
-**useful when making lots of change and reviewings**
+- **useful when making lots of change and reviewing**
 
 +++
 
@@ -203,7 +203,7 @@ git commit
 
 +++
 
-master branch - *production ready, dont develop in master*
+master branch - *production ready, do not develop in master*
 
 big feature - used to implement an application features, multiple commits
 
