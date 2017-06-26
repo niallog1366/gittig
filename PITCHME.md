@@ -6,7 +6,14 @@ Niall O'Gorman
 
 ---
 
-### who has used these source control systems?
+
+### who has used SCLM for source control?
+
+<img src="./pics/sclm.jpg"/>
+
+---
+
+### or perhaps one of these?
 
 <img src="./pics/IBM-ClearCase.png" width="200">
 <img src="./pics/Subversion_Logo.png" width="200"> 
@@ -17,24 +24,45 @@ Niall O'Gorman
 
 ---
 
-### or perhaps
-
-<img src="./pics/sclm.jpg"/>
+<img src="./pics/livingdangerously.jpg">
 
 ---
-### this guy needed source control an idea
+
+
+### this guy had a source control problem
 
 <img src="./pics/linus-torvalds.png"/>
 
 ---
 
-<img src="./pics/linus.jpg">
-
----
+### so in 2005 started building his own
 
 
 <img src="./pics/Git-Logo-2Color.png" alt="git" width="500"/>
+
+
+### which by 2015 had **10M repositories**
+
+
+### meanwhile in San Fransisco 2007, some open source develoers had their idea...
+
 <img src="./pics/github-octocat.png" alt="github" width="500"/>
+
+---
+
+### and grew into global ecosystem 
+
+- 117K businesses 
+
+- 61M repositories 
+
+- 22M developers 
+
+---
+
+### supporting all these technologies and many more
+
+<img src="./pics/supporting-logos.png" width="500">
 
 ---
 
@@ -48,21 +76,6 @@ simple, elegant, powerful
 
 <img src="./pics/pipeline.png" />
 
----
-
-### the git ecosystem 
-
-- 117K businesses <!-- .element: class="fragment" -->
-
-- 61M repositories <!-- .element: class="fragment" -->
-
-- 22M developers <!-- .element: class="fragment" -->
-
-+++
-
-### supporting all these technologies and many more
-
-<img src="./pics/supporting-logos.png" width="500">
 
 ---
 
@@ -70,6 +83,10 @@ simple, elegant, powerful
 
 <img src="./pics/Git-Logo-2Color.png">
  
++++
+
+<img src="./pics/linus.jpg">
+
 +++
 
 - distributed version control system - each developer has full history locally
@@ -95,13 +112,11 @@ simple, elegant, powerful
 
 - access control - code security <!-- .element: class="fragment" -->
 
-- bug tracking, issues management <!-- .element: class="fragment" -->
+- project management - commit history, bug tracking, issues management <!-- .element: class="fragment" -->
 
-- pull requests <!-- .element: class="fragment" -->
+- open source collaboration - fork & pull requests <!-- .element: class="fragment" -->
 
-- commit history <!-- .element: class="fragment" -->
-
-- collaboration platform - social media-like features (feeds, wikis), fork request <!-- .element: class="fragment" -->
+- social media-like features  - feeds, wikis, email notifiation  <!-- .element: class="fragment" -->
 
 - 3rd party integration - Jenkins, Pivotal tracker etc <!-- .element: class="fragment" -->
 
@@ -129,7 +144,7 @@ IDE integration
 ---
 
 ## workflows
-* `getting started` <!-- .element: style="background-color:powderblue;" -->
+* getting started <!-- .element: style="background-color:powderblue;" -->
 * version control
 * branches
 * delivery
@@ -153,7 +168,7 @@ copy the repository to local working directory
 
 ## workflows
 * getting started
-* `version control`
+* version control <!-- .element: style="background-color:powderblue;" -->
 * branches
 * delivery
 * undoing
@@ -193,7 +208,7 @@ git commit
 ## workflows
 * getting started
 * version control
-* `branches`
+* branches <!-- .element: style="background-color:powderblue;" -->
 * delivery
 * undoing
 
@@ -258,7 +273,7 @@ merge type #2 - ___**3-way merge**___
 - getting started
 - version control
 - branches
-- `delivery`
+- delivery <!-- .element: style="background-color:powderblue;" -->
 - undoing
 
 +++
@@ -283,7 +298,7 @@ transfer local commits to remote
 - version control
 - branches
 - delivery
-- `undoing`
+- undoing <!-- .element: style="background-color:powderblue;" -->
 
 +++
 
