@@ -24,7 +24,7 @@ Niall O'Gorman
 
 ---
 
-<img src="./pics/livingdangerously.jpg">
+<img src="./pics/livingdangerously.jpg" width="640px">
 
 ---
 
